@@ -1,0 +1,10 @@
+app = "mqtt-subscriber"
+
+[build]
+  image = "node:20-bullseye"
+
+[env]
+  NODE_ENV = "production"
+
+[deploy]
+  release_command = "npm install"
