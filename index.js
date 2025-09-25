@@ -7,7 +7,7 @@ const MQTT_BROKER = "wss://7fdaf087830f41a89eb6ae69bd0e592f.s1.eu.hivemq.cloud:8
 const MQTT_USERNAME = process.env.MQTT_USERNAME;
 const MQTT_PASSWORD = process.env.MQTT_PASSWORD;
 const MQTT_TOPIC = "sensor/data";
-const VERCEL_API_URL = "http://localhost:3000/api/vitals/upload";
+const VERCEL_API_URL = "https://backend-redis-iota.vercel.app/api/vitals/upload";
 
 // MQTT connection options
 const options = {
