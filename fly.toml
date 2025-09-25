@@ -2,7 +2,7 @@ app = "mqtt-subscriber"
 primary_region = "ams"
 
 [build]
-  image = "node:20-bullseye"
+  image = "heroku/buildpacks:20"
 
 [env]
   NODE_ENV = "production"
