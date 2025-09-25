@@ -8,4 +8,4 @@ primary_region = "ams"
   NODE_ENV = "production"
 
 [processes]
-  app = "node index.js"
+  app = "npm start"
