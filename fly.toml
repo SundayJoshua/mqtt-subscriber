@@ -1,4 +1,5 @@
 app = "mqtt-subscriber"
+primary_region = "ams"
 
 [build]
   image = "node:20-bullseye"
@@ -6,5 +7,5 @@ app = "mqtt-subscriber"
 [env]
   NODE_ENV = "production"
 
-[deploy]
-  release_command = "npm install"
+[processes]
+  app = "node index.js"
